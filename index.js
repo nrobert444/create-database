@@ -7,7 +7,8 @@ const {
     isFunction, 
     castToBoolean, 
     castToNumber, 
-    castToString 
+    castToString,
+    getCaster 
 } = require('./lib/types.js');
 
 console.log(isNumber('3'));
