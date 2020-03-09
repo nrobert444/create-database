@@ -1,4 +1,4 @@
-language: node_js
+language: "node_js"
 node_js: "stable"
 before_script:
   - npm i eslint esm jsdom
